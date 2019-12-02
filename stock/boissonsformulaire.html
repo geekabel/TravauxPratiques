@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Modification du stock(liste déroulante statique)</title>
+    </head>
+    <body>
+        <h1>Modification du stock</h1>
+        <form action=" boissonsmodif.php" method="get">
+           <p><label>Produit :</label>
+           <select name="refprod">
+               <option selected>Choisissez...</option>
+               <option value="1">Chai</option>
+               <option value="2">Chang</option>
+               <option value="39">Chartreuse verte</option>
+           </select>
+           </p>
+           <p>
+           <label>Quantité :</label><input type="number" name="nb" min="0">
+            <input type="submit" name="modif" value="Modifier">
+            </p>
+        </form>    
+    
+    </body>
+</html>
